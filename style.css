@@ -21,7 +21,7 @@
     left: 0;
 }
 #checkbox:checked ~ .menu-btt {
-    z-index: 0;
+    opacity: 0;
 }
 .menu-btt:focus {
     font-size: 50px;
@@ -50,4 +50,12 @@ section {
 .bookmark a {
     color: #fff;
     text-decoration: none;
+}
+
+.bookmark-btt {
+    border: none;
+    background-color: transparent;
+}
+.bookmark-btt:focus {
+    color: red;
 }
