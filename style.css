@@ -19,3 +19,26 @@ body {
 #checkbox:checked ~ .menu-btt{
     color: red;
 }
+section {
+    background-color: #34495e;
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.bookmark-lists {
+}
+.bookmark {
+    margin: 20px 0;
+}
+.bookmark:nth-child(1) {
+    margin-top: 50px;
+}
+.bookmark a {
+    color: #fff;
+    text-decoration: none;
+}
