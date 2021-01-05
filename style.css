@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#checkbox {
+    display: none;
+}
+#checkbox:checked + .menu-btt{
+    
+}
