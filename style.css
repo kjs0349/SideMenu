@@ -6,6 +6,10 @@ body {
 #checkbox {
     display: none;
 }
+.menu-btt {
+    font-size: 2rem;
+    font-weight: 700;
+}
 #checkbox:checked + .menu-btt{
-    
+
 }
