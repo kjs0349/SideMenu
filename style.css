@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,28 +12,37 @@ body {
     position: relative;
     top: 30px;
     left: 30px;
+    z-index: 1;
 }
 .material-icons {
     font-size: 1.5rem;
 }
-#checkbox:checked ~ .menu-btt{
-    color: red;
+#checkbox:checked ~ section{
+    left: 0;
+}
+#checkbox:checked ~ .menu-btt {
+    z-index: 0;
+}
+.menu-btt:focus {
+    font-size: 50px;
 }
 section {
     background-color: #34495e;
     color: #fff;
+    width: 200px;
     padding-top: 30px;
     padding-left: 30px;
-    width: 150px;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -200px;
     bottom: 0;
+    transition: 1s ease;
 }
 .bookmark-lists {
+    padding-left: 45px;
 }
 .bookmark {
-    margin: 20px 0;
+    margin: 30px 0;
 }
 .bookmark:nth-child(1) {
     margin-top: 50px;
