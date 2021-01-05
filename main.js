@@ -1,11 +1,15 @@
-const checkbox = document.querySelector('#checkbox');
+const bookBtn = document.querySelector('.bookmark-btt');
+const section = document.querySelector('section');
+const label = document.querySelector('label');
 
-console.log(checkbox.checked);
 
+bookBtn.addEventListener('click', function() {
+    section.style.left = 0;
+    label.style.opacity = 0;
 
-
-checkbox.addEventListener('blur', function() {
-    if(checkbox.checked === true) {
-        console.log("true");
-    }
+})
+bookBtn.addEventListener('blur', function() {
+    section.style.left = '-200px';
+    label.style.opacity = 1;
+    label.style.transitionDelay = '.5s';
 })
