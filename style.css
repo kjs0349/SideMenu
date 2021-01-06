@@ -16,6 +16,7 @@ label {
 }
 .bookmark-btt {
     border: none;
+    outline: none;
     background-color: transparent;
     font-size: 3rem;
 }
