@@ -9,6 +9,7 @@ label {
     position: relative;
     top: 30px;
     left: 30px;
+    transition: .5s;
 }
 .material-icons {
     font-size: 3rem;
