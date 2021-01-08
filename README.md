@@ -1,5 +1,7 @@
 # SideMenu
  
+![SideMenu_revise5](https://user-images.githubusercontent.com/61913417/104047296-c86fc300-5224-11eb-8e6d-1ca1a4442d2e.gif)
+
 제가 크롬에 북마크 사이드바 확장 프로그램을 쓰는데 이걸 만들어 보면 어떨까 해서 간단하게 만들어 봤습니다!!
 
 
